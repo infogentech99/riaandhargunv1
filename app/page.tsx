@@ -233,11 +233,11 @@ export default function Home() {
 
       <div className="hidden md:block bg-[url('/assets/Group_2147224830.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
-          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-54 pt-12 font-cormorant">
+          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
           </h1>
-          <h2 className="lg:text-[80px] text-2xl text-center text-[#EAD670] lg:pt-6 font-cormorant leading-16">
-            Bride <br /> & <br /> Groom
+          <h2 className="lg:text-[130px] text-2xl text-center text-[#EAD670] lg:pt-12 font-cormorant-upright leading-12">
+            <span className="text-[#EB3DB9]">Bride</span> <br /> & <br /> <span className="text-[#FF1100]">Groom</span>
           </h2>
         </div>
       </div>
@@ -247,7 +247,7 @@ export default function Home() {
 
       <div className="md:hidden bg-[url('/assets/group_mobile.png')] bg-cover bg-no-repeat">
         <div className="h-230">
-          <h1 className="text-xl text-center text-[#E1EF1E] pt-24 font-cormorant">
+          <h1 className="text-xl text-center text-[#E1EF1E] pt-48 font-cormorant">
             MEET THE
           </h1>
           <h2 className="text-6xl text-center text-[#EAD670] font-cormorant mt-6">

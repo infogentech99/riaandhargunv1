@@ -38,12 +38,12 @@ export default function MarriageCountdown() {
         <>
             <div className="bg-[url('/assets/thingtoknow.png')] bg-cover bg-no-repeat pb-12">
                 <div className="lg:h-150 md:h-100 h-110">
-                    <h2 className="lg:text-[40px] text-4xl text-center text-white lg:pt-42 pt-12 font-cormorant">The countdown begins</h2> 
-                      <h2 className="lg:text-[40px] text-2xl text-center text-white lg:pt-32 pt-8 font-cormorant"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
-                    <p className="lg:text-[22px] text-[16px] text-[#DEE6FF] mt-4 text-center lg:px-100 md:px-25 px-10 font-cormorant">
+                    <h2 className="lg:text-[40px] text-4xl text-center text-white lg:pt-42 pt-12 font-cormorant-upright">The countdown begins</h2> 
+                      <h2 className="lg:text-[40px] text-2xl text-center text-white font-cormorant-upright"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
+                    <p className="lg:text-[22px] text-[16px] text-[#DEE6FF] mt-4 text-center lg:px-100 md:px-25 px-10 font-cormorant-upright">
                         Our families are excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.
                     </p>
-                    <p className="lg:text-[26px] text-xl text-[#DEE6FF] mt-26 text-center font-cormorant">
+                    <p className="lg:text-[26px] text-xl text-[#DEE6FF] mt-26 text-center font-cormorant-upright">
                         © Invite Arc 2026 </p>
                 </div>
             </div>
