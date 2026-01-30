@@ -107,8 +107,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/mobile_back_lavaan3.png')]
-    md:bg-[url('/assets/lavaan.png')]
+    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769749029/mobile_back_lavaan_ojaaxi.png')]
+    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769749041/lavaan_back_yfakgn.png')]
     bg-cover
     bg-no-repeat
     bg-top
@@ -184,15 +184,15 @@ export default function Home() {
         {/* <FallingLamps /> */}
         <div className=" pt-24 pb-20 relative z-10">
 
-          <h2 className="text-[#DEE6FF] font-cormorant text-center leading-tight
+          <h2 className="text-[#DEE6FF]  text-center leading-tight
      text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0
   flex flex-col items-center gap-y-6">
 
-            <span>HARGUN</span>
+            <span className="font-parisienne">Hargun</span>
 
-            <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
+            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
 
-            <span>RIA</span>
+            <span className="font-parisienne">Ria</span>
 
           </h2>
 
