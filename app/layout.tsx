@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://res.cloudinary.com/dx2di0mvx/image/upload/w_1200,h_630,c_fill,q_auto,f_jpg/v1769836114/newmoon_b7pdb5.png",
+        url: "https://hargunwedsria.invitearc.com/og_img.jpg",
         width: 1200,
         height: 630,
         alt: "Hargun Weds Ria Invitation",
