@@ -308,7 +308,7 @@ export default function Home() {
       {/* mobile visible section */}
 
       <div className="md:hidden bg-[url('/assets/group_mobile.png')] bg-cover bg-no-repeat">
-        <div className="h-250">
+        <div className="h-240">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
