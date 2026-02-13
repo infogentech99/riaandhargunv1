@@ -219,7 +219,7 @@ export default function Home() {
 
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[22px]">
+            <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[34px] md:text-2xl text-[24px]">
               The Kataria Family
             </h2>
           </div>
