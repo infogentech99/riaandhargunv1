@@ -20,7 +20,7 @@ export default function CoupleMessage() {
         },
 
         {
-            img: '/assets/testh2.png',
+            img: '/assets/testh5.png',
         },
 
          {
@@ -78,13 +78,22 @@ export default function CoupleMessage() {
                         <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant">
                             Click the link to RSVP
                         </p>
-                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-2 text-center font-cormorant font-semibold">
-                            Amarjeet Singh:<br /> <a
+                        <p className="lg:text-[22px] text-[14px] text-white md:mt-6 mt-2 text-center font-cormorant font-semibold">
+                            <a
+                                href="https://wa.me/919811075858"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >Amarjeet Singh:</a><br /> <a
                                 href="https://wa.me/919811075858"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >9811075858</a> <br />
-                            Kawaljeet Singh:<br /><a
+                            <a
+                                href="https://wa.me/9811449797"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            > Kawaljeet Singh:</a>
+                            <br /><a
                                 href="https://wa.me/9811449797"
                                 target="_blank"
                                 rel="noopener noreferrer"
