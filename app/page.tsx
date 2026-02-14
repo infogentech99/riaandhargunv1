@@ -47,26 +47,33 @@ export default function Home() {
       image: "/assets/cocktail.png",
       date: "Sunday, March 8th 2026",
       venue: "AKASA",
-      venue_address: "Main Road, Opposite Petrol Pump, Kapashere Extn, Pushpanjali Farms, New Delhi, Delhi, 110061",
-      time: "6:30 pm onwards",
+      venue_address: <>Main Road, Opposite Petrol Pump, Kapashera Extn, <br /> Pushpanjali Farms, New Delhi, 110061</>,
+      time: "7:30 pm onwards",
       link: "https://maps.app.goo.gl/uNMNPpgk6ukDJnZe7",
     },
 
     {
-      title: "Wedding/Anand Karaj",
+      title: "Anand Karaj",
       image: "/assets/anand.png",
       date: "Monday, March 9th 2026",
-      venue: "THE NIKUNJ",
-      venue_address: "Emperor Hall NH 8, 22nd Milestone, near IGI Airport, New Delhi, Delhi - 110038",
-      time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
+      venue: "SHRI GURU SINGH SABHA GURUDWARA",
+      venue_address: "Ashok Vihar II, Phase 2, Ashok Vihar, Delhi, 110052",
+      time: "4:30pm Onwards",
+      link: "https://maps.app.goo.gl/Q1k2XyyxXJ1iA1om8",
+
+      title2: "Reception of Baraat",
+      date2: "Monday, March 9th 2026",
+      venue2: "CARNIVAL MOTEL AND RESORTS",
+      venue_address2: "Narela Rd, GT Karnal Road, NH 44, Alipur, New Delhi, 110036",
+      time2: "8pm Onwards",
+      link_barat: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
     },
     {
       title: "Reception",
       image: "/assets/reception.png",
       date: "Wednesday, March 11th 2026",
-      venue: "CARNIVAL MOTEL AND RESORTS",
-      venue_address: "Narela Rd, GT Karnal Road, NH 44, Alipur, New Delhi, Delhi, 110036",
+      venue: "THE NIKUNJ",
+      venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport, New Delhi, 110038</>,
       time: "8pm Onwards",
       link: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6",
     },
@@ -145,10 +152,10 @@ export default function Home() {
         <FloatingLamp className="hidden lg:block absolute top-160 left-160 w-32 h-32 transform rotate-18 opacity-80" />
         <FloatingLamp className="hidden lg:block absolute top-180 left-180 w-40 h-40 transform rotate-28 opacity-85" />
 
-         <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
         <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-40 h-40 transform rotate-15 opacity-80" />
         <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-40 h-40 transform rotate-25 opacity-75" />
-        
+
 
 
 
@@ -202,8 +209,8 @@ export default function Home() {
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-250">
             <h2 className="text-[#E6D2FF] text-sm sm:text-base text-center">
               ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥ <br />
-ਸਤਿਗੁਰੂ ਦਾਤੇ ਕਾਜ ਰਚਾਇਆ, ਆਪਣੀ ਮੇਹਰ ਕਰਾਈ । <br />
-ਦਾਸਾਂ ਕਾਰਜ ਆਪ ਸਵਾਰੇ, ਇਹ ਉਸ ਦੀ ਵਡਿਆਈ ॥ 
+              ਸਤਿਗੁਰੂ ਦਾਤੇ ਕਾਜ ਰਚਾਇਆ, ਆਪਣੀ ਮੇਹਰ ਕਰਾਈ । <br />
+              ਦਾਸਾਂ ਕਾਰਜ ਆਪ ਸਵਾਰੇ, ਇਹ ਉਸ ਦੀ ਵਡਿਆਈ ॥
             </h2>
 
             <img
@@ -275,11 +282,11 @@ export default function Home() {
                     {event.title}
                   </h2>
 
-                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base leading-5 mt-2">
-                   <span className="text-[18px]">{event.date}</span>  <br />
-                   <span className="text-[16px]"> {event.venue}</span> <br />
+                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[18px]">{event.date}</span>  <br />
+                    <span className="text-[20px]"> {event.venue}</span> <br />
                     {event.venue_address} <br />
-                   <span className="text-[16px]">  {event.time} </span>
+                    <span className="text-[16px]">  {event.time} </span>
                   </p>
 
                   <a
@@ -289,6 +296,29 @@ export default function Home() {
                   >
                     See the route
                   </a>
+
+
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4">
+                    {event.title2}
+                  </h2>
+
+                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[18px]">{event.date2}</span>  <br />
+                    <span className="text-[20px]"> {event.venue2}</span> <br />
+                    {event.venue_address2} <br />
+                    <span className="text-[16px]">  {event.time2} </span>
+                  </p>
+                  {event.link_barat && (
+                    <a
+                      href={event.link_barat}
+                      className="text-[#E6D2FF] underline text-sm mt-2 font-cormorant"
+                      target="_blank"
+                    >
+                      See the route
+                    </a>
+                  )}
+
+
                 </div>
               ))}
             </div>
