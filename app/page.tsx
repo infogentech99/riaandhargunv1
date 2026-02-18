@@ -64,7 +64,7 @@ export default function Home() {
       title2: "Reception of Baraat",
       venue2: "CARNIVAL MOTEL AND RESORTS",
       venue_address2: <>GT Karnal Road, NH 44, Alipur, <br/>New Delhi, 110036</>,
-      time2: "8pm Onwards",
+      time2: "7:30pm Onwards",
       link_barat: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6", 
     },
     {
