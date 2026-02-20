@@ -53,7 +53,7 @@ export default function Home() {
     },
 
     {
-      title: "Anand Karaj",
+      title: <>Wedding Ceremony <br/>Anand Karaj</>,
       image: "/assets/phere.webp",
       date: "Monday, March 9th 2026",
       venue: "Gurudwara Sri Guru Singh Sabha ",
@@ -270,7 +270,7 @@ export default function Home() {
             </h2>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              you to join us in the wedding celebrations of
+              cordially invites you to grace the wedding celebrations of
             </p>
 
 
@@ -281,13 +281,13 @@ export default function Home() {
             </h2>
 
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[20px]">
-             (Granddaughter of Shri R.S. Jaiswal)
- <br /> (D/o Mrs. Roomy Jaiswal and Mr. Ram Jaiswal)
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
+              (Granddaughter of Shri R.S. Jaiswal)
+              <br /> (D/o Mrs. Roomy Jaiswal and Mr. Ram Jaiswal)
             </p>
 
 
-            
+
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
@@ -296,7 +296,7 @@ export default function Home() {
               HARGUN
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-2">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
               (S/o Sdn. Gurmeet Kaur and Sd. Amarjeet Singh)
             </p>
 
@@ -354,11 +354,11 @@ export default function Home() {
                     </a>
                   )}
 
-                  
-                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold mt-12">
+
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold mt-12">
                     {event.title3}
                   </h2>
- <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2">
+                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2">
                     <span className="text-[22px]">  {event.time3} </span>
                   </p>
 

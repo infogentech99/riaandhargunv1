@@ -30,7 +30,7 @@ export default function CoupleMessage() {
 
     return (
 
-        <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat">
+        <div className="bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771591497/backmid_u1eqpb.webp')] bg-cover bg-no-repeat">
              <div className="lg:h-592 md:h-520 h-535">
                 <h1 className="lg:text-[50px] md:text-3xl text-[52px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
                 <h2 className="lg:text-[30px] text-[22px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-7">
@@ -71,12 +71,12 @@ export default function CoupleMessage() {
 
                 <div className="flex flex-col-1 justify-center items-center mt-16">
                     <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
-                        <h1 className="lg:text-6xl md:text-5xl text-[40px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
-                            Looking <br /> forward to <br />seeing you</h1>
+                        <h1 className="lg:text-5xl md:text-4xl text-[30px] leading-8 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-36 md:pt-28 pt-26 font-cormorant-upright">
+                         We Look forward<br />to your presence on <br /> the special occasion !</h1>
                         <p className="lg:text-[26px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant-upright font-bold">
-                            Click the contact numbers to RSVP
+                         RSVP:
                         </p>
-                        <p className="lg:text-[26px] text-[16px] text-white md:mt-16 mt-6 text-center font-cormorant-upright font-bold md:leading-4 leading-3">
+                        <p className="lg:text-[26px] text-[16px] text-white md:mt-10 mt-4 text-center font-cormorant-upright font-bold md:leading-4 leading-3">
                             <p className="lg:text-[26px] text-[18px]"
                             >Rajeev Jaiswal</p><br /> 
                             <p className="lg:text-[26px] text-[18px]"
