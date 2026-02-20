@@ -76,30 +76,12 @@ export default function CoupleMessage() {
                         <p className="lg:text-[26px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant-upright font-bold">
                             Click the contact numbers to RSVP
                         </p>
-                        <p className="lg:text-[26px] text-[16px] text-white md:mt-4 mt-2 text-center font-cormorant-upright font-bold md:leading-8 leading-5">
-                            <a
-                                href="https://wa.me/919811075858"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="lg:text-[26px] text-[18px]"
-                            >Amarjeet Singh:</a><br /> <a
-                                href="https://wa.me/919811075858"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="font-cormorant font-semibold lg:text-[22px] "
-                            >9811075858</a> <br />
-                            <a
-                                href="https://wa.me/9811449797"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="lg:text-[26px] text-[18px]"
-                            > Kawaljeet Singh:</a>
-                            <br /><a
-                                href="https://wa.me/9811449797"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                 className="font-cormorant font-semibold lg:text-[22px]"
-                            > 9811449797</a></p>
+                        <p className="lg:text-[26px] text-[16px] text-white md:mt-16 mt-2 text-center font-cormorant-upright font-bold md:leading-4 leading-5">
+                            <p className="lg:text-[26px] text-[18px]"
+                            >Rajeev Jaiswal</p><br /> 
+                            <p className="lg:text-[26px] text-[18px]"
+                            > Rajat Jaiswal</p>
+                            <br /></p>
                     </div>
                 </div>
 

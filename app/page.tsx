@@ -43,12 +43,12 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title: "Sagan & Cocktail",
+      title: "Engagement  &  Sangeet",
       image: "/assets/reception.png",
       date: "Sunday, March 8th 2026",
       venue: "AKASA",
-      venue_address: <>Main Road, Opposite Petrol Pump, <br /> Kapashera Extn, Pushpanjali Farms, <br/>New Delhi, 110061</>,
-      time: "7:30 pm onwards",
+      venue_address: <>Main Road, Opposite Petrol Pump, <br /> Kapashera Extn, Pushpanjali Farms, <br />New Delhi, 110061</>,
+      time: "7:00 pm onwards",
       link: "https://maps.app.goo.gl/uNMNPpgk6ukDJnZe7",
     },
 
@@ -57,22 +57,25 @@ export default function Home() {
       image: "/assets/phere.webp",
       date: "Monday, March 9th 2026",
       venue: "Gurudwara Sri Guru Singh Sabha ",
-      venue_address: <>Ashok Vihar, Phase 2, <br/>Delhi, 110052</>,
-      time: "4:30pm Onwards",
+      venue_address: <>Ashok Vihar, Phase 2, <br />Delhi, 110052</>,
+      time: "4:00pm Onwards",
       link: "https://maps.app.goo.gl/Q1k2XyyxXJ1iA1om8",
 
       title2: "Reception of Baraat",
       venue2: "CARNIVAL MOTEL AND RESORTS",
-      venue_address2: <>GT Karnal Road, NH 44, Alipur, <br/>New Delhi, 110036</>,
-      time2: "7:30pm Onwards",
-      link_barat: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6", 
+      venue_address2: <>GT Karnal Road, NH 44, Alipur, <br />New Delhi, 110036</>,
+      time2: "7:00pm Onwards",
+      link_barat: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6",
+
+      title3: "Vedic Phere",
+      time3: "1:00am Onwards",
     },
     {
       title: "Reception",
       image: "/assets/cocktail.png",
       date: "Wednesday, March 11th 2026",
       venue: "THE NIKUNJ",
-      venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport,<br/> New Delhi, 110038</>,
+      venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport,<br /> New Delhi, 110038</>,
       time: "8pm Onwards",
       link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
     },
@@ -91,7 +94,7 @@ export default function Home() {
       await audio.play();
       setStarted(true);
       setPlaying(true);
-    } catch {}
+    } catch { }
   };
 
   const toggleMusic = async () => {
@@ -105,7 +108,7 @@ export default function Home() {
       try {
         await audio.play();
         setPlaying(true);
-      } catch {}
+      } catch { }
     }
   };
 
@@ -134,9 +137,9 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song.mp3" loop  preload="auto" playsInline/>
+      <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
-      
+
       {/* hero section */}
       <div
         className="
@@ -230,19 +233,26 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-150">
-            <h2 className="text-[#E6D2FF] md:text-3xl text-[17px] text-center">
-              ॐ श्री गणेशाय नम:
-            </h2>
+
 
             <img
               src="/assets/ganesh_inter.png"
               alt=""
               className="md:w-40 w-28 h-auto"
             />
+            <h2 className="text-[#E6D2FF] md:text-2xl text-[17px] text-center">
+              || श्री गणेशाय नमः ||
+            </h2>
+            <h2 className="text-[#E6D2FF] md:text-2xl text-[17px] text-center">
+              वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।
+              <br />
+              निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
+            </h2>
+
 
             <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[20px] font-cormorant-upright">
               With the heavenly blessings of
-              grandparents<br /> Late Sdn. Parkash Kaur & Late Sd. Avtar Singh
+              <br /> Late Smt. Shail Bala
             </h2>
 
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
@@ -263,7 +273,7 @@ export default function Home() {
               you to join us in the wedding celebrations of
             </p>
 
-            
+
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
@@ -274,18 +284,18 @@ export default function Home() {
 
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[20px]">
-              D/O <br /> Mrs. Roomy Jaiswal & Mr. Ram Jaiswal
-
+             (Granddaughter of Shri R.S. Jaiswal)
+ <br /> (D/o Mrs. Roomy Jaiswal and Mr. Ram Jaiswal)
             </p>
 
 
-<h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
               HARGUN
             </h2>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-2">
-              S/O <br /> Sdn. Gurmeet Kaur & Sd. Amarjeet Singh
+              (S/o Sdn. Gurmeet Kaur and Sd. Amarjeet Singh)
             </p>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -329,19 +339,26 @@ export default function Home() {
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[24px]"> {event.venue2}</span> <br />
-                   <span className="text-[20px]"> {event.venue_address2} </span><br />
+                    <span className="text-[20px]"> {event.venue_address2} </span><br />
                     <span className="text-[22px]">  {event.time2} </span>
                   </p>
                   {event.link_barat && (
                     <a
                       href={event.link_barat}
-                      className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant mb-26"
+                      className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant mb-6"
                       target="_blank"
                     >
                       See the route
                     </a>
                   )}
 
+                  
+                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.title3}
+                  </h2>
+ <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[22px]">  {event.time3} </span>
+                  </p>
 
                 </div>
               ))}
@@ -351,7 +368,7 @@ export default function Home() {
       </div>
 
 
-       <div className="hidden md:block bg-[url('/assets/meetthebroom.webp')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('/assets/meetthebroom.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
@@ -360,7 +377,7 @@ export default function Home() {
             <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
           </h2>
         </div>
-      </div> 
+      </div>
 
 
       {/* mobile visible section */}
@@ -383,7 +400,7 @@ export default function Home() {
       <div className="hidden md:block bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
         </div>
-      </div> 
+      </div>
 
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
