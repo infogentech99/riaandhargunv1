@@ -304,7 +304,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-12 sm:gap-16">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-2 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
@@ -345,7 +345,7 @@ export default function Home() {
                   {event.link_barat && (
                     <a
                       href={event.link_barat}
-                      className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant mb-6"
+                      className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant "
                       target="_blank"
                     >
                       See the route
@@ -353,10 +353,10 @@ export default function Home() {
                   )}
 
                   
-                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold mt-12">
                     {event.title3}
                   </h2>
- <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
+ <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2 mb-32">
                     <span className="text-[22px]">  {event.time3} </span>
                   </p>
 
