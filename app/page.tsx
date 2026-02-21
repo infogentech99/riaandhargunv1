@@ -42,15 +42,6 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    {
-      title_ceremony: "Engagement  &  Sangeet",
-      image: "/assets/reception.png",
-      date: "Sunday, March 8th 2026",
-      venue: "AKASA",
-      venue_address: <>Main Road, Opposite Petrol Pump, <br /> Kapashera Extn, Pushpanjali Farms, <br />New Delhi, 110061</>,
-      time: "7:00 pm onwards",
-      link: "https://maps.app.goo.gl/uNMNPpgk6ukDJnZe7",
-    },
 
     {
       title_ceremony: "Wedding Ceremony",
@@ -71,15 +62,15 @@ export default function Home() {
       title3: "Vedic Phere",
       time3: <div className="mb-36">1:00am Onwards</div>,
     },
-    {
-      title_ceremony: "Reception",
-      image: "/assets/cocktail.png",
-      date: "Wednesday, March 11th 2026",
-      venue: "THE NIKUNJ",
-      venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport,<br /> New Delhi, 110038</>,
-      time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
-    },
+    // {
+    //   title_ceremony: "Reception",
+    //   image: "/assets/cocktail.png",
+    //   date: "Wednesday, March 11th 2026",
+    //   venue: "THE NIKUNJ",
+    //   venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport,<br /> New Delhi, 110038</>,
+    //   time: "8pm Onwards",
+    //   link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
+    // },
 
   ];
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -307,7 +298,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-2 ">
+            <div className="grid grid-cols-1  lg:gap-52 gap-12 sm:gap-16">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img

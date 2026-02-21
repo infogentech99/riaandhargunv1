@@ -31,12 +31,12 @@ export default function CoupleMessage() {
     return (
 
         <div className="bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771591497/backmid_u1eqpb.webp')] bg-cover bg-no-repeat">
-             <div className="lg:h-592 md:h-520 h-535">
+             <div className="lg:h-450 md:h-420 h-375">
                 <h1 className="lg:text-[50px] md:text-3xl text-[52px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
                 <h2 className="lg:text-[30px] text-[22px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-7">
                     From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
                     This moment wouldn’t be the same without the people we love most. Thank you for your love, blessings, and for making our journey even more special, we’re so excited to celebrate together!</h2>
-                 <div className="md:mt-32 mt-26 flex justify-center items-center">
+                 {/* <div className="md:mt-32 mt-26 flex justify-center items-center">
                     <Swiper
                         modules={[Autoplay, Pagination]}
                         autoplay={{ delay: 3500, disableOnInteraction: false }}
@@ -67,7 +67,7 @@ export default function CoupleMessage() {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                </div> 
+                </div>  */}
 
                 <div className="flex flex-col-1 justify-center items-center mt-16">
                     <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
