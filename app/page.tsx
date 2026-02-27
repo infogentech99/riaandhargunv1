@@ -379,6 +379,14 @@ export default function Home() {
         <div className="lg:h-325 md:h-180">
           {/* <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
+          </h1> */}
+          <h2 className="lg:text-[86px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-20 lg:pt-64 pt-12">
+            <span className="text-[#ADBAFF] font-cormorant-upright">A message</span> <br /> From <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">the couple</span>
+          </h2>
+
+
+          {/* <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
+            MEET THE
           </h1>
           <h2 className="lg:text-[130px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-12">
             <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
