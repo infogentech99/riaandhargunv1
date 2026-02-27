@@ -381,7 +381,7 @@ export default function Home() {
             MEET THE
           </h1> */}
           <h2 className="lg:text-[86px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-20 lg:pt-64 pt-12">
-            <span className="text-[#ADBAFF] font-cormorant-upright">A message</span> <br /> From <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">the couple</span>
+            <span className="text-[#ADBAFF] font-cormorant-upright">A message</span> <br /> from <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">the couple</span>
           </h2>
 
 
@@ -401,7 +401,7 @@ export default function Home() {
         <div className="h-220">
           <h2 className="text-[55px] text-center text-[#00EAFF] font-cormorant-upright leading-12 lg:pt-48 pt-28">
             <span className="text-[#ADBAFF] font-cormorant-upright">
-              A message</span> <br /> From <br /><span className="text-[#3FA9FF] font-cormorant-upright "> the couple </span>
+              A message</span> <br /> from <br /><span className="text-[#3FA9FF] font-cormorant-upright "> the couple </span>
           </h2>
           {/* <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
