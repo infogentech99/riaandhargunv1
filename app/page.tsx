@@ -311,12 +311,21 @@ export default function Home() {
                     {event.title_ceremony}
                   </h2>
 
+                
+
+
+                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[35px] md:text-2xl text-[30px] mt-4 font-bold">
+                    {event.date}
+                  </h2>
+
+{/* <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[35px] md:text-2xl text-[30px] mt-4 font-bold">
+                    {event.title}
+                  </h2> */}
                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[35px] md:text-2xl text-[30px] mt-4 font-bold">
                     {event.title}
                   </h2>
-
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[22px]">{event.date}</span>  <br />
+                    {/* <span className="text-[22px]">{event.date}</span>  <br /> */}
                     <span className="text-[24px] uppercase"> {event.venue}</span> <br />
                     <span className="text-[20px]">{event.venue_address}</span> <br />
                     <span className="text-[22px]">  {event.time} </span>
@@ -368,12 +377,12 @@ export default function Home() {
 
       <div className="hidden md:block bg-[url('/assets/meetthebroom.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
-          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
+          {/* <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
           </h1>
           <h2 className="lg:text-[130px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-12">
             <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
-          </h2>
+          </h2> */}
         </div>
       </div>
 
@@ -382,13 +391,13 @@ export default function Home() {
 
       <div className="md:hidden bg-[url('/assets/meetthebroom_mobile.webp')] bg-cover bg-no-repeat">
         <div className="h-220">
-          <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
+          {/* <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
-          </h1>
-          <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
+          </h1> */}
+          {/* <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
             <span className="text-[#ADBAFF] font-cormorant-upright">
               Bride </span><br /> & <br /><span className="text-[#3FA9FF] font-cormorant-upright "> Groom </span>
-          </h2>
+          </h2> */}
         </div>
       </div>
 
