@@ -399,6 +399,10 @@ export default function Home() {
 
       <div className="md:hidden bg-[url('/assets/meetthebroom_mobile.webp')] bg-cover bg-no-repeat">
         <div className="h-220">
+          <h2 className="text-[55px] text-center text-[#00EAFF] font-cormorant-upright leading-12 lg:pt-48 pt-28">
+            <span className="text-[#ADBAFF] font-cormorant-upright">
+              A message</span> <br /> From <br /><span className="text-[#3FA9FF] font-cormorant-upright "> the couple </span>
+          </h2>
           {/* <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1> */}
